@@ -1,0 +1,243 @@
+/*Margem*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+/*fundo da pagina*/
+html {
+    background: rgb(48, 48, 46);
+    background: radial-gradient(circle, rgba(48, 48, 46, 1) 0%, rgba(12, 12, 14, 1) 100%);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    scroll-behavior: smooth;
+}
+
+.fundo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position-x: center;
+}
+
+/*Menu*/
+header {
+    width: 100%;
+    font-size: 100%;
+    position: fixed;
+    /*espaçamento de cima para baixo, do lado pro outro*/
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.logo a {
+    /*cor*/
+    color: #cac7c7;
+    /*tira os pontos do link*/
+    text-decoration: none;
+    /*tamanho*/
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Tilt Prism', cursiva;
+}
+
+.logo {
+    transition: 1s;
+    font-family: 'Tilt Prism', cursiva;
+}
+
+.logo:hover {
+    /*efeito de cor quando clica*/
+    transform: scale(1.2);
+}
+
+.navbar ul {
+    /*serve para tirar os pontos*/
+    list-style-type: none;
+}
+
+.navbar ul li {
+    /*faz ficar do lado do outro*/
+    display: inline-block;
+    /* serve para distanciar*/
+    margin: 0 8px;
+    /*tamanho*/
+    font-size: 35px;
+    /*espaçamento de cima para baixo, do lado pro outro*/
+    padding: 5px 8px;
+    transition: 1s;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.2);
+}
+
+.navbar ul li a {
+    /*tira os pontos do link*/
+    text-decoration: none;
+    color: #ADADAD;
+    font-weight: 600;
+}
+
+.conteiner {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 90px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #403D37;
+    border: 0;
+    outline: 0;
+    padding: 15px 15px;
+    border-radius: 15px;
+    color: #dadada;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: #C29944;
+    color: #403D37;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 1s;
+}
+
+form .btn-enviar input:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px #cac7c7;
+}
+
+.titulo {
+    text-align: center;
+    color: #cac7c7;
+    margin-top: 120px;
+    font-size: 25px;
+}
+
+.titulo span{
+    font-size: 35px;
+    color: #C29944;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+/* APLICAÇÃO MEDIA QUERIES */
+@media (max-width: 513px) {
+    header {
+        background: rgb(48, 48, 46);
+        background: radial-gradient(circle, rgba(48, 48, 46, 0.938813025210084) 0%, rgba(12, 12, 14, 0.9444152661064426) 100%);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 40px 10px;
+    }
+
+    html {
+        background-image: url(img/dfgjhdfgjdgj.jfif);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        background-color: #b8b7b7;
+        background: rgb(48, 48, 46);
+        background: radial-gradient(circle, rgba(48, 48, 46, 1) 0%, rgba(12, 12, 14, 1) 100%);
+    }
+
+    .navbar label {
+        transition: 1s;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .navbar label:hover {
+        transform: scale(1.3);
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background: rgb(48, 48, 46);
+        background: radial-gradient(circle, rgba(48, 48, 46, 0.938813025210084) 0%, rgba(12, 12, 14, 0.9444152661064426) 100%);
+        background-size: cover;
+        background-position-y: center;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        top: 99px;
+        transition: 1s;
+    }
+
+    .menu li:hover {
+        transform: scale(1.1);
+    }
+
+    .menu li+li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: grid;
+    }
+
+    .logo a {
+        font-size: 30px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbar ul li a {
+        font-size: 25px;
+        transition: 1s;
+    }
+
+    .navbar ul li a:hover {
+        color: #daab4f;
+    }
+}
