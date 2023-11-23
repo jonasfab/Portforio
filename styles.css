@@ -25,6 +25,7 @@ html {
     background: rgb(48, 48, 46);
     background: radial-gradient(circle, rgba(48, 48, 46, 1) 0%, rgba(12, 12, 14, 1) 100%);
     scroll-behavior: smooth;
+   
 }
 
 .fundo {
