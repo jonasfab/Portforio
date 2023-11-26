@@ -20,7 +20,7 @@
   ";
   
   //Emails para quem será enviado o formulário
-  $destino = "jonas_fab@hotmail.com";
+  $destino = "jonasfabricio13@gmail.com";
   $assunto = "Contato pelo Portfólio";
 
   //Este sempre deverá existir para garantir a exibição correta dos caracteres
