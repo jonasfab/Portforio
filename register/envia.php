@@ -1,8 +1,8 @@
 <?php
   //Variáveis
-  $nome = $_POST['nome'];
-  $email = $_POST['email'];
-  $telefone = $_POST['telefone'];
+  $nome = addslashes($_POST['nome']);
+  $email = addslashes($_POST['email']);
+  $telefone = addslashes($_POST['telefone']);
 
 
   //Emails para quem será enviado o formulário
