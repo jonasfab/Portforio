@@ -37,11 +37,12 @@
             <h2 class="titulo">Obrigado pela referência, e por reservar um tempo para entrar em contato. <br><br><span>Como posso ajudá-lo
                     hoje?</span></h2>
 
-            <form method="post" action="./envia.php">
+            <form method="post" action="https://api.staticforms.xyz/submit">
+                <input type="hidden" name="accessKey" value="85ebbe85-6224-494f-b44d-8d094f5afa54">
                 <input type="text" name="nome" placeholder="Seu nome completo" required>
                 <input type="text" name="email" placeholder="Seu e-mail" required>
-                <input type="text" name="telefone" placeholder="Seu celular">
-                <textarea name="mensagem" placeholder="Conte-me sobre seu projeto" required></textarea>
+                <input type="text" name="phone" placeholder="Seu celular">
+                <textarea name="message" placeholder="Conte-me sobre seu projeto" required></textarea>
 
                 <div class="btn-enviar">
                     <input type="submit" value="ENVIAR">
