@@ -3,14 +3,13 @@
   $nome = $_POST['nome'];
   $email = $_POST['email'];
   $telefone = $_POST['telefone'];
-  $mensagem = $_POST['mensagem'];
 
 
   //Emails para quem será enviado o formulário
   $para = "jonasfabricio13@gmail.com";
   $assunto = "Contato pelo Portfólio";
 
-  $corpo = "Nome: ".$nome."\n"."E-mail: ".$email."\n"."Telefone: ".$telefone."\n"."Mensagem: ".$mensagem;
+  $corpo = "Nome: ".$nome."\n"."E-mail: ".$email."\n"."Telefone: ".$telefone;
 
   $cabeca = "From: jonas_fab@hotmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
