@@ -1,435 +1,235 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JONAS@DEV</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="man.css">
-  <link rel="stylesheet" href="stil.css">
-  <link rel="icon" type="image/x-icon" href="img/code.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<title>Dev</title>
+	<link rel="icon" type="image/x-icon" href="img/icons8-dev-50.png">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="formacao.css">
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="js/app.js" defer></script>
 
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+	<script src="script.js" defer></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 </head>
 
-<body>
 
-  <header class="scroll-aparecer">
-    <nav>
-      <div class="hamburger menu-toggle">
-        <div class="hamburger_menu">
-          <div class="hamburger_bar"></div>
-        </div>
-      </div>
-
-      <div class="logo">
-        <p>JONAS@DEV <span>.Web-Designer</span></p>
-      </div>
-      <div class="menu-link">
-        <ul class="nav ">
-          <li><a class="active" href="#first">Inicio</a></li>
-          <li><a href="#second">Projetos</a></li>
-          <li><a href="#third">Sistemas </a></li>
-          <li><a href="#fourth">Sobre</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+<body id="first">
 
-  <div class="btn-whatsapp">
-    <a href="https://wa.me/11961772771" target="_blank"><img src="img/Chat bot-bro.svg" alt=""></a>
-  </div>
-
-  <main>
-
-    <section id="first"><!--primeira-->
-      <div class="first">
-
-        <div class="logo-centro">
-          <h3 class="anime">OLÁ SOU</h3>
-          <h1 class="anime">JONAS FABRICIO</h1>
-          <h2 class="anime">DESENVOLVEDOR<span><br>WEB-DESIGNER<br>FRONT-END</span></h2>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="second"><!--segunda-->
-      <div class="title">
-        <h1>Projetos</h1>
-      </div>
-
-      <div class="cart">
-
-        <div class="card-item anime">
-
-          <div class="card-img-1">
-            <img src="img/portfolio.png" alt="imagem de portfolio">
-          </div>
-
-          <div class="card-text-1">
-            <h1>Sites pessoais</h1>
-            <p>Tem como objetivo principal, exibir os serviços que uma pessoa oferece, ou somente mostra quem ela é.</p>
-            <div class="card-btr">
-              <a target=”_blank” href="https://desenvolvedor-dev-jonasfab.netlify.app/">Visualizar</a>
-            </div>
-          </div>
-
-
-
-        </div>
-
-        <div class="card-item anime">
-          <div class="card-img-1">
-            <img src="img/Puro e exótico sabor.png" alt="imagem de portfolio">
-          </div>
-          <div class="card-text-1">
-            <h1>Landing pages</h1>
-            <p>A criação de landing pages é ideal para vender um produto ou serviço. É comum utilizar este tipo de site para vender um produto digital ou serviço, explanando todos os benefícios do que você oferece.</p>
-            <div class="card-btr">
-              <a target=”_blank” href="https://velvety-cat-c1b8b3.netlify.app/">Visualizar</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-      </div>
-    </section>
-
-    <section id="third"><!--terçeira-->
-
-
-
-      <div class="car">
-
-        <div class="titl">
-          <h1>Sistemas</h1>
-        </div>
-
-        <div class="car-item anime">
-          <div class="car-img-1">
-            <img src="img/agenda1.png" alt="imagem de portfolio">
-          </div>
-
-          <div class="car-text">
-            <h1>Controle de fluxo de veículos</h1>
-            <p>campos de preenchimento de clientes,
-              dados dos motoristas e transportadoras, com monitoramento por horas e
-              datas controladas por ID, de cada etapa dentro de uma unidade.
-              <br>Utilizado: banco de dados phpMyAdmin, PHP,
-              JavaScript, CSS, Database e Bootstrap.
-            </p>
-            <div class="car-btr">
-              <a href="#">Visualizar</a>
-            </div>
-          </div>
-        </div>
-
-
-
-
-        <div class="car-item anime">
-          <div class="car-img-1">
-            <img src="img/tv.png" alt="imagem de portfolio">
-          </div>
-
-          <div class="car-text">
-            <h1>TV Ao Vivo</h1>
-            <p>
-              Assistir diversos canais de tv online abertas e gratuitas, por categoría Esportes, Infantil, Notícias e muito.
-
-              <br>Utilizado: HTML - CSS - javascript - Lista iptv m3u8
-            </p>
-            <div class="car-btr">
-              <a target=”_blank” href="https://reliable-cranachan-08bf00.netlify.app/">Visualizar</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <section id="fourth"><!--quatro-->
-      <div class="fourth">
-
-        <div class="texte1">
-          <h1 class="anime">Sobre</h1>
-          <p class="anime">Trabalhando como Web-designer e Front-end, responsável por projetar e criar sites e
-            elementos visuais.
-            Isso inclui o layout, a aparência e a usabilidade de uma página na internet.</p>
-          <br><br>
-          <p class="anime">Proporcionando a navegabilidade e a interatividade do site, garantindo que os
-            visitantes
-            possam acessar
-            facilmente o conteúdo desejado. Isso pode envolver a criação de menus de navegação intuitivos,
-            botões de
-            chamada à ação e outros elementos interativos.</p>
-          <br><br>
-          <p class="anime">Criar site 100% responsivo, ou seja, que se adapte bem a diferentes dispositivos, como
-            computadores,
-            tablets e smartphones. Isso envolve a criação de layouts flexíveis.</p>
-        </div>
-
-        <div class="texte2">
-          <h1 class="anime">Habilidades</h1>
-          <div class="anime">
-            <div class="chipcar">
-              <div class="chip">
-                <h2>HTML:5</h2>
-              </div>
-              <div class="chip">
-                <h2>CSS</h2>
-              </div>
-              <div class="chip">
-                <h2>JavaScript</h2>
-              </div>
-              <div class="chip">
-                <h2>PHP</h2>
-              </div>
-              <div class="chip">
-                <h2>Mysql Workbench</h2>
-              </div>
-              <div class="chip">
-                <h2>React</h2>
-              </div>
-              <div class="chip">
-                <h2>Bootstrap</h2>
-              </div>
-              <div class="chip">
-                <h2>UX - UI</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div><!--sombra-fundo-->
-    </section>
-
-    <section id="fifth"><!--quinta-->
-      <div class="fifth-1">
-        <div class="fifth-2"><!--sombra-fundo-->
-
-          <div class="containertt">
-
-            <div class="cursor"></div>
-
-            <input type="checkbox" id="switch">
-
-            <div class="outer">
-
-
-              <div class="contenttt">
-
-                <label for="switch">
-                  <span class="toggle">
-                    <span class="circle"></span>
-                  </span>
-                </label>
-
-                <div class="image-box">
-                  <img src="./img/IMG_20230708_232138_346~2.jpg">
-                </div>
-
-                <div class="details">
-                  <p class="name">Jonas</p>
-                  <p class="job">Web-designer e Front-end</p>
-
-                  <div class="buttons">
-                    <p>Um desenvolvedor Web <br> Construindo sites e aplicativos Web que leva ao sucesso do produto geral.</p>
-                    <a href="https://wa.me/11961772771" target=”_blank”><button>Solicite um orçamento</button></a>
-                  </div>
-
-                </div>
-
-
-              </div>
-
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer id="footer" class="main_footer containertop"><!--rodapé-->
-
-    <div class="rodape">
-
-      <div class="content">
-
-        <div class="colfooter">
-          <h4 class="titleFooter"> Menu</h4>
-          <ul>
-            <li><a href="#first" title="Inicio">Inicio</a></li>
-            <li><a href="#second" title="Sistemas">Sistemas</a></li>
-            <li><a href="#third" title="Destaques">Destaques</a></li>
-          </ul>
-
-        </div><!--Col Footer 1 -->
-
-        <div class="colfooter">
-          <h4 class="titleFooter">Contato</h4>
-          <a href="mailto:jonas_fab@hotmail.com" target=”_blank”>
-            <p>jonas_fab@hotmail.com</p>
-          </a>
-          <a href="https://wa.me/11961772771" target=”_blank”>
-            <p>(11) 96177-2771</p>
-          </a>
-        </div><!--Col Footer 2-->
-
-        <div class="colfooter">
-          <form>
-            <h4 class="titleFooter"> Redes Sociais</h4>
-            <div class="rede">
-              <a href="https://github.com/jonasfab" target=”_blank” class="redesocial"><img src="img/icons-github.png"><span>-Github</span></a>
-              <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target=”_blank” class="redesocial"><img src="img/icons-linkedin.png"><span>-Linkedin</span></a>
-              <a href="https://www.youtube.com/channel/UC1qAzaC_Hzfq62IYy0kEe7A" target=”_blank” class="redesocial"><img src="img/icons-youtube.png"><span>-Youtube</span></a>
-              <a href="https://www.instagram.com/jonasfab.dossantos.5/" target=”_blank” class="redesocial"><img src="img/icons-instagram.png"><span>-Instagram</span></a>
-            </div>
-          </form>
-
-        </div><!--Col Footer 3-->
-
-        <div class="clear"></div>
-
-      </div><!--Contant-->
-
-
-      <div class="main_footer_copy">
-        <p class="m-b-footer"> </p>
-      </div>
-
-    </div>
-
-
-  </footer>
-
-  <!--Animação-->
-  <script>
-    var root = document.documentElement;
-    root.className += " js";
-    function boxTop(idBox) {
-      var boxOffset = $(idBox).offset().top;
-      return boxOffset;
-    }
-    $(document).ready(function () {
-      var $target = $(".anime"),
-        animationClass = "anime-init",
-        windowHeight = $(window).height(),
-        offset = windowHeight - windowHeight / 4;
-
-      function animeScroll() {
-        var documentTop = $(document).scrollTop();
-        $target.each(function () {
-          if (documentTop > boxTop(this) - offset) {
-            $(this).addClass(animationClass);
-          } else {
-            $(this).removeClass(animationClass);
-          }
-        });
-      }
-      animeScroll();
-
-      $(document).scroll(function () {
-        setTimeout(function () {
-          animeScroll();
-        }, 150);
-      });
-    });
-  </script>
-
-  <!--esconder Menu-->
-  <script>
-    var espera = 50;
-    var timeout = null;
-
-    $(window).bind('scroll', function () {
-      clearTimeout(timeout);
-      timeout = setTimeout(function () {
-
-        if ($(window).scrollTop() > 60) {
-          $('.scroll-aparecer').animate({ opacity: "1", height: "85px", cursor: "pointer" });
-        }
-        else {
-          $('.scroll-aparecer').animate({ opacity: "0", height: "0" });
-        }
-
-
-      }, espera);
-    });
-  </script>
-
-  <!--Activer do Menu dos links-->
-  <script>
-    let sec = document.querySelectorAll('section');
-    let links = document.querySelectorAll('.menu-link a');
-
-    window.onscroll = () => {
-      sec.forEach(section => {
-        let top = window.scrollY;
-        let offset = section.offsetTop - 60;
-        let height = section.offsetHeight;
-        let id = section.getAttribute('id');
-
-        if (top >= offset && top < offset + height) {
-          links.forEach(link => {
-            link.classList.remove('active');
-            document.querySelector('.menu-link a[href*=' + id + ']').
-              classList.add('active')
-          })
-        }
-      })
-
-    }
-  </script>
-
-  <!--Hamburger Menu-->
-  <script>
-    var nav = document.querySelector('nav');
-    var menu = document.querySelector('nav ul');
-    var menuToggle = document.querySelector('.menu-toggle');
-
-    menuToggle.addEventListener('click', function (e) {
-      e.preventDefault();
-      menu.classList.toggle('show-menu');
-    });
-
-    window.addEventListener('resize', function () {
-      if (window.innerWidth > 600 && menu.classList.contains('show-menu')) {
-        menu.classList.remove('show-menu');
-      }
-    });
-  </script>
-
-  <!--Hamburger Menu-->
-  <script>
-    const hamburgerMenu = document.querySelector('.hamburger_menu')
-
-    hamburgerMenu.addEventListener('click', (e) => {
-      e.currentTarget.classList.toggle('open')
-      console.log(e.target.classList)
-    })
-  </script>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.js'></script>
-
-  <div class="scroll-aparecer">
-    <a href="#first"><span id="mouse"></span></a>
-  </div>
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="main-header">
+
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__title">JONAS FABRICIO</div>
+						<div class="layers__caption3">DESENVOLVEDOR</div>
+						<div class="layers__caption1">FRONT-END</div>
+						<div class="layers__caption2">WEB-DESIGNER</div>
+
+
+					</div>
+					<div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+				</div>
+
+			</header>
+
+			<section class="main-article" style="background-color: rgb(31, 31, 31); ">
+
+				<div class="main-article__content">
+
+					<h2 class="main-article__header">Sobre</h2>
+					<p class="main-article__paragraph">Trabalhando como Web-designer e Front-end, responsável por projetar e criar sites e elementos visuais. Isso inclui o layout, a aparência e a usabilidade de uma página na internet.
+						<br<br>
+							Proporcionando a navegabilidade e a interatividade do site, garantindo que os visitantes possam acessar facilmente o conteúdo desejado. Isso pode envolver a criação de menus de navegação intuitivos, botões de chamada à ação e outros elementos interativos.
+							<br>
+							Criar site 100% responsivo, ou seja, que se adapte bem a diferentes dispositivos, como computadores, tablets e smartphones. Isso envolve a criação de layouts flexíveis.
+					</p>
+
+				</div>
+
+			</section>
+
+			<section class="main-article2" style="background-color: rgb(31, 31, 31); ">
+				<h1 class="main-article__header2">Projetos</h1>
+
+				<div class="wrapper">
+					<i id="left" class="fa-solid fa-angle-left"></i>
+
+					<ul class="carousel">
+
+						<li class="card">
+							<div class="img"><img src="images/portfolio.png" alt="img" draggable="false"></div>
+							<h2>Portfolio</h2>
+							<a href="" target="_blank">Visualizar</a>
+						</li>
+
+						<li class="card">
+							<div class="img"><img src="images/tv-ao-vivo.png" alt="img" draggable="false"></div>
+							<h2>Entretenimentos</h2>
+							<a href="https://reliable-cranachan-08bf00.netlify.app/" target="_blank">Visualizar</a>
+						</li>
+
+						<li class="card">
+							<div class="img"><img src="images/Puro e exótico.png" alt="img" draggable="false"></div>
+							<h2>Landing pages</h2>
+							<a href="https://velvety-cat-c1b8b3.netlify.app/" target="_blank">Visualizar</a>
+						</li>
+
+						<li class="card">
+							<div class="img"><img src="images/portfolio-exerci-2.png" alt="img" draggable="false"></div>
+							<h2>Portfolio</h2>
+							<a href="https://bejewelled-begonia-cb17b6.netlify.app/" target="_blank">Visualizar</a>
+						</li>
+
+						<li class="card">
+							<div class="img"><img src="images/Training .png" alt="img" draggable="false"></div>
+							<h2>Atividades físicas</h2>
+							<a href="https://leafy-gnome-72eb40.netlify.app/" target="_blank">Visualizar</a>
+						</li>
+
+					</ul>
+
+					<i id="right" class="fa-solid fa-angle-right"></i>
+				</div>
+
+			</section>
+
+			<section class="main-article" style="background-color: rgb(31, 31, 31); ">
+
+				<div class="main4">
+
+					<h1 class="main-article__header2" style="margin-bottom: 50px;">Formação</h1>
+
+					<ul class="faculdade-lista">
+						<li class="faculdade">
+							<span class="faculdade-tipo">Tecnólogo</span>
+							<h3 class="faculdade-curso">Análise e Desenvolvimento de Sistemas</h3>
+							<span class="faculdade-tipo">Cursando</span>
+							<span class="faculdade-instituicao">Anhembi Morumbi</span>
+						</li>
+						<li class="faculdade">
+							<span class="faculdade-tipo">Cursos Intensivo</span>
+							<h3 class="faculdade-curso">Front-end</h3>
+							<span class="faculdade-tipo">100h - Cursando</span>
+							<span class="faculdade-instituicao">Origamid</span>
+						</li>
+						<li class="faculdade">
+							<span class="faculdade-tipo">Cursos Intensivo</span>
+							<h3 class="faculdade-curso">Web-designer</h3>
+							<span class="faculdade-tipo">55h - Cursando</span>
+							<span class="faculdade-instituicao">Origamid</span>
+						</li>
+					</ul>
+
+				</div>
+			</section>
+
+			<section class="main-article" style="background-color: rgb(31, 31, 31); ">
+
+				<div class="main4">
+
+					<h1 class="main-article__header2" style="margin-bottom: 50px;">Contato</h1>
+
+					<ul class="faculdade-lista2">
+						<a target="_blank" href="https://wa.me/11961772771" class="faculdade2">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="55" viewBox="0 0 24 24">
+								<path d="M19.077,4.928C17.191,3.041,14.683,2.001,12.011,2c-5.506,0-9.987,4.479-9.989,9.985 c-0.001,1.76,0.459,3.478,1.333,4.992L2,22l5.233-1.237c1.459,0.796,3.101,1.215,4.773,1.216h0.004 c5.505,0,9.986-4.48,9.989-9.985C22.001,9.325,20.963,6.816,19.077,4.928z M16.898,15.554c-0.208,0.583-1.227,1.145-1.685,1.186 c-0.458,0.042-0.887,0.207-2.995-0.624c-2.537-1-4.139-3.601-4.263-3.767c-0.125-0.167-1.019-1.353-1.019-2.581 S7.581,7.936,7.81,7.687c0.229-0.25,0.499-0.312,0.666-0.312c0.166,0,0.333,0,0.478,0.006c0.178,0.007,0.375,0.016,0.562,0.431 c0.222,0.494,0.707,1.728,0.769,1.853s0.104,0.271,0.021,0.437s-0.125,0.27-0.249,0.416c-0.125,0.146-0.262,0.325-0.374,0.437 c-0.125,0.124-0.255,0.26-0.11,0.509c0.146,0.25,0.646,1.067,1.388,1.728c0.954,0.85,1.757,1.113,2.007,1.239 c0.25,0.125,0.395,0.104,0.541-0.063c0.146-0.166,0.624-0.728,0.79-0.978s0.333-0.208,0.562-0.125s1.456,0.687,1.705,0.812 c0.25,0.125,0.416,0.187,0.478,0.291C17.106,14.471,17.106,14.971,16.898,15.554z"></path>
+							</svg>
+							<h1>Whatsapp</h1>
+
+						</a>
+
+						<a target="_blank" href="https://www.linkedin.com/in/jonas-fabricio-dos-santos-2734b4236/" class="faculdade2">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="55" viewBox="0 0 24 24">
+								<path d="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h14c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3z M9,17H6.477v-7H9 V17z M7.694,8.717c-0.771,0-1.286-0.514-1.286-1.2s0.514-1.2,1.371-1.2c0.771,0,1.286,0.514,1.286,1.2S8.551,8.717,7.694,8.717z M18,17h-2.442v-3.826c0-1.058-0.651-1.302-0.895-1.302s-1.058,0.163-1.058,1.302c0,0.163,0,3.826,0,3.826h-2.523v-7h2.523v0.977 C13.93,10.407,14.581,10,15.802,10C17.023,10,18,10.977,18,13.174V17z"></path>
+							</svg>
+							<h1>Linkedin</h1>
+						</a>
+
+						<a target="_blank" href="https://github.com/jonasfab" class="faculdade2">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="55" viewBox="0 0 64 64">
+								<path d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z"></path>
+							</svg>
+							<h1>Github</h1>
+
+						</a>
+
+						<a target="_blank" href="https://www.youtube.com/channel/UC1qAzaC_Hzfq62IYy0kEe7A" class="faculdade2">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="55" viewBox="0 0 24 24">
+								<path d="M 5.6796875 2 L 7.1582031 7.34375 L 7.1582031 9.90625 L 8.4394531 9.90625 L 8.4394531 7.34375 L 9.9375 2 L 8.6464844 2 L 8.109375 4.4316406 C 7.958375 5.1416406 7.8623594 5.6462656 7.8183594 5.9472656 L 7.7792969 5.9472656 C 7.7162969 5.5262656 7.6202813 5.017875 7.4882812 4.421875 L 6.9707031 2 L 5.6796875 2 z M 11.431641 4.0175781 C 10.997641 4.0175781 10.647859 4.1023906 10.380859 4.2753906 C 10.113859 4.4473906 9.9170156 4.7226094 9.7910156 5.0996094 C 9.6660156 5.4766094 9.6035156 5.9756563 9.6035156 6.5976562 L 9.6035156 7.4375 C 9.6035156 8.0525 9.6575781 8.5450156 9.7675781 8.9160156 C 9.8775781 9.2870156 10.063219 9.5603281 10.324219 9.7363281 C 10.585219 9.9123281 10.944344 10 11.402344 10 C 11.848344 10 12.202891 9.9132344 12.462891 9.7402344 C 12.722891 9.5672344 12.911344 9.295875 13.027344 8.921875 C 13.143344 8.547875 13.201172 8.0535 13.201172 7.4375 L 13.201172 6.5976562 C 13.201172 5.9766562 13.142437 5.4794687 13.023438 5.1054688 C 12.904438 4.7324687 12.715031 4.45725 12.457031 4.28125 C 12.199031 4.10525 11.858641 4.0175781 11.431641 4.0175781 z M 13.878906 4.1308594 L 13.878906 8.4453125 C 13.878906 8.9793125 13.968391 9.3720469 14.150391 9.6230469 C 14.332391 9.8740469 14.615047 10 14.998047 10 C 15.550047 10 15.966187 9.7332188 16.242188 9.1992188 L 16.269531 9.1992188 L 16.382812 9.90625 L 17.400391 9.90625 L 17.400391 4.1308594 L 16.101562 4.1308594 L 16.101562 8.71875 C 16.051563 8.82575 15.975094 8.9134219 15.871094 8.9824219 C 15.767094 9.0524219 15.659875 9.0859375 15.546875 9.0859375 C 15.414875 9.0859375 15.320672 9.031875 15.263672 8.921875 C 15.206672 8.811875 15.177734 8.6271406 15.177734 8.3691406 L 15.177734 4.1308594 L 13.878906 4.1308594 z M 11.402344 4.9121094 C 11.584344 4.9121094 11.713156 5.0072187 11.785156 5.1992188 C 11.857156 5.3902187 11.892578 5.694375 11.892578 6.109375 L 11.892578 7.9082031 C 11.892578 8.3352031 11.857156 8.6440312 11.785156 8.8320312 C 11.713156 9.0200312 11.585297 9.1142344 11.404297 9.1152344 C 11.222297 9.1152344 11.096344 9.0200313 11.027344 8.8320312 C 10.957344 8.6440313 10.923828 8.3352031 10.923828 7.9082031 L 10.923828 6.109375 C 10.923828 5.695375 10.95925 5.3912188 11.03125 5.1992188 C 11.10325 5.0082187 11.226344 4.9121094 11.402344 4.9121094 z M 5 11 C 3.9 11 3 11.9 3 13 L 3 20 C 3 21.1 3.9 22 5 22 L 19 22 C 20.1 22 21 21.1 21 20 L 21 13 C 21 11.9 20.1 11 19 11 L 5 11 z M 12.048828 13 L 13.105469 13 L 13.105469 15.568359 L 13.113281 15.568359 C 13.208281 15.382359 13.344531 15.233141 13.519531 15.119141 C 13.694531 15.005141 13.883938 14.949219 14.085938 14.949219 C 14.345937 14.949219 14.549266 15.01825 14.697266 15.15625 C 14.845266 15.29425 14.953531 15.517219 15.019531 15.824219 C 15.085531 16.132219 15.117187 16.559469 15.117188 17.105469 L 15.117188 17.876953 L 15.119141 17.876953 C 15.119141 18.603953 15.030469 19.136516 14.855469 19.478516 C 14.680469 19.820516 14.408109 19.992188 14.037109 19.992188 C 13.830109 19.992188 13.642656 19.944609 13.472656 19.849609 C 13.302656 19.754609 13.174844 19.623984 13.089844 19.458984 L 13.066406 19.458984 L 12.955078 19.919922 L 12.048828 19.919922 L 12.048828 13 z M 5.4863281 13.246094 L 8.7382812 13.246094 L 8.7382812 14.130859 L 7.6484375 14.130859 L 7.6484375 19.919922 L 6.5761719 19.919922 L 6.5761719 14.130859 L 5.4863281 14.130859 L 5.4863281 13.246094 z M 17.097656 14.951172 C 17.473656 14.951172 17.762844 15.020203 17.964844 15.158203 C 18.165844 15.296203 18.307625 15.511734 18.390625 15.802734 C 18.472625 16.094734 18.513672 16.497719 18.513672 17.011719 L 18.513672 17.847656 L 16.677734 17.847656 L 16.677734 18.095703 C 16.677734 18.408703 16.686078 18.642828 16.705078 18.798828 C 16.724078 18.954828 16.762312 19.069625 16.820312 19.140625 C 16.878312 19.212625 16.967844 19.248047 17.089844 19.248047 C 17.253844 19.248047 17.366734 19.183641 17.427734 19.056641 C 17.488734 18.929641 17.522344 18.718875 17.527344 18.421875 L 18.474609 18.476562 C 18.479609 18.518563 18.482422 18.578344 18.482422 18.652344 C 18.482422 19.103344 18.358328 19.440109 18.111328 19.662109 C 17.864328 19.885109 17.517406 19.996094 17.066406 19.996094 C 16.525406 19.996094 16.145734 19.825328 15.927734 19.486328 C 15.709734 19.147328 15.601562 18.623109 15.601562 17.912109 L 15.601562 17.060547 C 15.601562 16.328547 15.714453 15.794031 15.939453 15.457031 C 16.164453 15.120031 16.551656 14.951172 17.097656 14.951172 z M 8.4101562 15.044922 L 9.5097656 15.044922 L 9.5097656 18.625 C 9.5097656 18.842 9.5340312 18.997844 9.5820312 19.089844 C 9.6300313 19.182844 9.7083125 19.228516 9.8203125 19.228516 C 9.9153125 19.228516 10.008703 19.199625 10.095703 19.140625 C 10.183703 19.082625 10.246062 19.007969 10.289062 18.917969 L 10.289062 15.044922 L 11.388672 15.044922 L 11.388672 19.919922 L 11.386719 19.919922 L 10.527344 19.919922 L 10.433594 19.322266 L 10.408203 19.322266 C 10.174203 19.774266 9.8244219 20 9.3574219 20 C 9.0334219 20 8.7965781 19.893641 8.6425781 19.681641 C 8.4885781 19.469641 8.4101563 19.1375 8.4101562 18.6875 L 8.4101562 15.044922 z M 17.074219 15.693359 C 16.957219 15.693359 16.870453 15.728875 16.814453 15.796875 C 16.758453 15.865875 16.721125 15.978766 16.703125 16.134766 C 16.684125 16.290766 16.675781 16.527703 16.675781 16.845703 L 16.675781 17.195312 L 17.478516 17.195312 L 17.478516 16.845703 C 17.478516 16.532703 17.468266 16.296766 17.447266 16.134766 C 17.427266 15.972766 17.388031 15.858969 17.332031 15.792969 C 17.276031 15.726969 17.191219 15.693359 17.074219 15.693359 z M 13.591797 15.728516 C 13.485797 15.728516 13.388828 15.770469 13.298828 15.855469 C 13.208828 15.940469 13.144422 16.049641 13.107422 16.181641 L 13.107422 18.949219 C 13.155422 19.034219 13.217922 19.097625 13.294922 19.140625 C 13.371922 19.182625 13.453922 19.205078 13.544922 19.205078 C 13.661922 19.205078 13.753266 19.163125 13.822266 19.078125 C 13.891266 18.993125 13.941703 18.850437 13.970703 18.648438 C 13.999703 18.447437 14.013672 18.1675 14.013672 17.8125 L 14.013672 17.185547 C 14.013672 16.803547 14.002516 16.509734 13.978516 16.302734 C 13.954516 16.095734 13.911562 15.946375 13.851562 15.859375 C 13.790563 15.772375 13.703797 15.728516 13.591797 15.728516 z"></path>
+							</svg>
+							<h1>Youtube</h1>
+
+						</a>
+
+						<a target="_blank" href="https://www.instagram.com/jonasfab.dossantos.5/" class="faculdade2">
+							<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="55" viewBox="0 0 24 24">
+								<path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"></path>
+							</svg>
+							<h1>Instagram</h1>
+						</a>
+
+						<a href="CV-Jonas Fabricio dos Santos.pdf" download="Currículo do Jonas Fabricio" class="faculdade2">
+							<img width="45" height="45" src="png_0r88v.png" />
+							<h1>Currículo</h1>
+						</a>
+					</ul>
+
+				</div>
+			</section>
+
+			<section class="main-article" style="background-color: rgb(31, 31, 31); ">
+				<div class="copy">© Dev. Alguns direitos reservados.</div>
+
+			</section>
+
+		</div>
+	</div>
+
+
+
+	<!--esconder Menu-->
+	<script>
+		var espera = 50;
+		var timeout = null;
+
+		$(window).bind('scroll', function () {
+			clearTimeout(timeout);
+			timeout = setTimeout(function () {
+
+				if ($(window).scrollTop() > 60) {
+					$('.scroll-aparecer').animate({ opacity: "1", height: "85px", cursor: "pointer" });
+				}
+				else {
+					$('.scroll-aparecer').animate({ opacity: "0", height: "0" });
+				}
+
+
+			}, espera);
+		});
+	</script>
+
+	<div class="scroll-aparecer">
+		<a href="#first"><span id="mouse"></span></a>
+	</div>
 
 
 </body>
